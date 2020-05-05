@@ -1,7 +1,6 @@
 import speech_recognition as sr
 from gtts import gTTS
-# import os
-# import time
+
 import playsound
 import gi
 
@@ -35,4 +34,4 @@ text = get_audio ()
 if "hello" in text:
     speak("hello, how are you?")
 elif "what is your name" in text:
-    speak("My name is Tim")
+    speak("My name is atul")
